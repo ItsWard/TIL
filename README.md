@@ -29,5 +29,16 @@ Spring boot - 김영한 강의 듣기
 ## 해야할거
 Web 프로젝트 주제 찾기
 MVC ,CRUD
+람다식 구현 방법, hash set, hash map
+        List<String> newList = list.stream().distinct().collect(Collectors.toList());
+        steam 구현 예제 
+        mapToObj, mapToInt.. 
+        implements Comparable<>
+        Assertions.assertThat
+        maven gladle
+        this super
+        object optional<T>
+
+https://mangkyu.tistory.com/181?category=761305
 
 
