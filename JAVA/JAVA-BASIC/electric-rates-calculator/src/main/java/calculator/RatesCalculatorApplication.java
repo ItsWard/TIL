@@ -19,8 +19,6 @@ public class RatesCalculatorApplication {
 
         int electricity = 0;
 
-
-
         System.out.println(viewCliCalculator.setTitle("주택용 전기요금(저압) 계산기"));
 
         try {

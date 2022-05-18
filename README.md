@@ -42,3 +42,6 @@ MVC ,CRUD
 https://mangkyu.tistory.com/181?category=761305
 
 
+
+웹이 앱에 비해 떨어지는 것은 실제 사용자의 필요에 의한 접근성이다.
+https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=akanaka&logNo=90130831140

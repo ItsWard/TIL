@@ -27,7 +27,6 @@ public class ResidentialElectricRatesTable {
 
         int index = 0;
 
-
         map.put(index++, LOW_VOLTAGE_100KWH_BELOW);
         map.put(index++, LOW_VOLTAGE_100KWH_EXCESS);
         map.put(index++, LOW_VOLTAGE_200KWH_EXCESS);
