@@ -2,7 +2,7 @@ package main.java.calculator.domain;
 
 public class RatesCalculator {
 
-    // 전기계산에 필요한 클래스
+    // 전기계산기 클래스
 
     public int getElectricity() {
         return electricity;

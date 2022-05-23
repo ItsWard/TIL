@@ -5,7 +5,11 @@ import main.java.calculator.display.ViewCliCalculator;
 import main.java.calculator.domain.RatesCalculator;
 import main.java.calculator.utill.Input;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStreamReader;
+
+import static main.java.calculator.utill.Input.inputInteger;
 
 public class RatesCalculatorApplication {
 
@@ -15,14 +19,14 @@ public class RatesCalculatorApplication {
 
         ViewCliCalculator viewCliCalculator = new ViewCliCalculator();
         RatesCalculator ratesCalculator = new RatesCalculator();
-        Input input = new Input();
+        BufferedReader inputBufferReader = new BufferedReader(new InputStreamReader(System.in));
 
         int electricity = 0;
 
         System.out.println(viewCliCalculator.setTitle("주택용 전기요금(저압) 계산기"));
 
         try {
-            electricity = Integer.parseInt(input.getStr());
+            electricity = inputInteger(inputBufferReader);
             ratesCalculator.setElectricity(electricity);
             System.out.println(viewCliCalculator.calc(ratesCalculator));
         }
