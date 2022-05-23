@@ -9,6 +9,7 @@ public class Input {
     public static int inputInteger(BufferedReader bufferedReader) {                     //입력 데이터가 숫자가 아닌경우 다시 입력받도록 하는 메소드
         String str = "";
         int num = 0;
+
         try {
             num = Integer.parseInt(bufferedReader.readLine());                          //정상적일경우 num에 데이터 입력
         } catch (IOException | NumberFormatException e) {                               //에러 발생일 경우

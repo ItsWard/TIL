@@ -37,7 +37,7 @@ public class ViewCliCalculator implements CliCalculator{ //인터페이스에서
 //     key = 0,      100KWH_BELOW = 60.7;
 //     key = 1 ,     100KWH_EXCESS = 125.9;
 //     key = 2 ,     200KWH_EXCESS = 187.9;
-//     key =3  ,     300KWH_EXCESS = 208.6;
+//     key = 3 ,     300KWH_EXCESS = 208.6;
 //     key = 4 ,     400KWH_EXCESS = 417.7;
 //     key = 5 ,     500KWH_EXCESS = 670.6;
 

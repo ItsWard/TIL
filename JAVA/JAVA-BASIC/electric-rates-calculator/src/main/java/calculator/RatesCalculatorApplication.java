@@ -25,8 +25,8 @@ public class RatesCalculatorApplication {
         System.out.println(viewCliCalculator.setTitle("주택용 전기요금(저압) 계산기"));
 
                                //Try Ca
-        electricity = inputInteger(inputBufferReader);
-        //electricity =Integer.parseInt(inputBufferReader.readLine());// 데이터를 입력받습니다.
+        //electricity = inputInteger(inputBufferReader);
+        electricity =Integer.parseInt(inputBufferReader.readLine());// 데이터를 입력받습니다.
         ratesCalculator.setElectricity(electricity);                        // ratesCalculator 객체에 현재 입력값을 저장합니다.
         System.out.println(viewCliCalculator.calc(ratesCalculator));        //연산한 값을 터미널창에 출력합니다.
 
