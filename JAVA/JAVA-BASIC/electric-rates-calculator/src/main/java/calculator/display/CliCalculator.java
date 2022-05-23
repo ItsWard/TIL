@@ -7,3 +7,4 @@ public interface CliCalculator {
     String calc(RatesCalculator ratesCalculator); // 전기요금 계산 프로그램 RatesCalculator 단독이 아닌 Calcurator 객체가 만들어질 경우 변경 예정
 
 }
+

@@ -9,7 +9,7 @@ public class ViewCliCalculator implements CliCalculator{ //인터페이스에서
     @Override
     public String setTitle(String title) { //입력된 title에 맞춰 타이틀 String 출력
         return "=========================" + System.lineSeparator() + title + System.lineSeparator() + "=========================";
-    }
+    }                                       //엔터키
 
     @Override
     public String calc(RatesCalculator ratesCalculator) {
@@ -34,10 +34,10 @@ public class ViewCliCalculator implements CliCalculator{ //인터페이스에서
         for(int i = 0 ; i < length; i++)
             price += map.get(i) * 100; // 전체 요금 계산
 
-//     key = 0 ,     100KWH_BELOW = 60.7;
+//     key = 0,      100KWH_BELOW = 60.7;
 //     key = 1 ,     100KWH_EXCESS = 125.9;
 //     key = 2 ,     200KWH_EXCESS = 187.9;
-//     key = 3 ,     300KWH_EXCESS = 208.6;
+//     key =3  ,     300KWH_EXCESS = 208.6;
 //     key = 4 ,     400KWH_EXCESS = 417.7;
 //     key = 5 ,     500KWH_EXCESS = 670.6;
 
@@ -49,5 +49,6 @@ public class ViewCliCalculator implements CliCalculator{ //인터페이스에서
         ratesCalculator.setPrice(price); // 계산기 객체에 저장
 
         return String.format("%dkWh의 전기 요금은 %f원 입니다.",ratesCalculator.getElectricity(), ratesCalculator.getPrice());
+        //<Add> 포멧을 1단위 이상으로 했으면 좋겠다.
     }
 }
