@@ -5,7 +5,7 @@ import main.java.calculator.domain.RatesCalculator;
 
 import java.util.Map;
 
-public class ViewCliCalculator implements CliCalculator{
+public class ViewCliCalculator implements CliCalculator{ //인터페이스에서 상속받아 데이터를 연산하는 부분입니다.
     @Override
     public String setTitle(String title) { //입력된 title에 맞춰 타이틀 String 출력
         return "=========================" + System.lineSeparator() + title + System.lineSeparator() + "=========================";

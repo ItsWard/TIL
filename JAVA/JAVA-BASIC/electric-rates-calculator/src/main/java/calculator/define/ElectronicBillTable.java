@@ -3,16 +3,19 @@ package main.java.calculator.define;
 import java.util.HashMap;
 import java.util.Map;
 
-public class ElectronicBillTable {
+public class ElectronicBillTable { // 각 전기계산의 상수 값과, 연산시 필요한 맵을 저장하는 클래스입니다.
 
+
+
+    Map<Integer, Double> lowVoltageMap = new HashMap<>(); //ViewCliCalculator에서 연산할 때 사용되는 테이블입니다.
 
     public final Map<Integer, Double> getMap() {
         return lowVoltageMap;
     }
-    Map<Integer, Double> lowVoltageMap = new HashMap<>();
 
     public ElectronicBillTable() { //생성자, 키값에 맞춰 전력요금을 계산하기 위해 해당 테이블 선언시 넣기
-        //
+
+
         int index = 0;
 
         lowVoltageMap.put(index++, LowVoltageTable.BELLOW_100KWH.value);
