@@ -2,6 +2,8 @@ package main.java.calculator.domain;
 
 public class RatesCalculator {
 
+    // 전기계산에 필요한 클래스
+
     public int getElectricity() {
         return electricity;
     }
@@ -18,7 +20,7 @@ public class RatesCalculator {
         this.price = price;
     }
 
-    int electricity = 0;
-    double price = 0;
+    int electricity = 0; //전력양
+    double price = 0; // 가격
 
 }

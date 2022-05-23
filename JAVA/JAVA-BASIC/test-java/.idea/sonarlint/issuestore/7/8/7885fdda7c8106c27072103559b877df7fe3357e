@@ -1,0 +1,12 @@
+
+o
+java:S1488"YImmediately return this expression instead of assigning it to the temporary variable "c".(—çÇ¢
+G
+java:S1481",Remove this unused "strList" local variable.(æŒ¡¶ÿÿÿÿÿ
+F
+java:S1481"0Remove this unused "integerList" local variable.(£Á¡™
+A
+java:S1481"+Remove this unused "intArr" local variable.(şõîü
+V	java:S125"<This block of commented-out lines of code should be removed.(Ø¼ÚŒûÿÿÿÿ
+F
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ

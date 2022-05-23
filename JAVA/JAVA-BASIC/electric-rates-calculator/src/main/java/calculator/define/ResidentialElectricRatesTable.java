@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class ResidentialElectricRatesTable {
 
-    //LOW_VOLTAGE
+    //LOW_VOLTAGE Define 전력 요금_2022.05.18v
 
     //Summer (07.01 ~ 08.31)
     public static final double LOW_VOLTAGE_100KWH_BELOW = 60.7;
@@ -23,8 +23,9 @@ public class ResidentialElectricRatesTable {
     Map<Integer, Double> map = new HashMap<>();
 
 
-    public ResidentialElectricRatesTable() {
+    public ResidentialElectricRatesTable() { //생성자, 키값에 맞춰 전력요금을 계산하기 위해 해당 테이블 선언시 넣기
 
+        //
         int index = 0;
 
         map.put(index++, LOW_VOLTAGE_100KWH_BELOW);
