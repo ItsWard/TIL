@@ -23,7 +23,7 @@ public class HttpRespController {
     @GetMapping("/jsp")
     public String jsp() {
 
-        return "JSPdemo";
+        return "jspdemo";
     }
 
     
