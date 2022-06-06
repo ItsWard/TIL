@@ -1,0 +1,12 @@
+
+t
+java:S2293	"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ù¥üÚþÿÿÿÿ
+k	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÒÙ¥Íÿÿÿÿÿ
+1
+java:S3626"Remove this redundant jump.(ÉŠ©ƒ
+I
+java:S1481	".Remove this unused "arrayList" local variable.(Ù¥üÚþÿÿÿÿ
+E
+java:S1481"*Remove this unused "bInfo" local variable.(ÏžÊ­ûÿÿÿÿ
+s	java:S116<"YRename this field "ContractInfoId" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ì›¶¸ûÿÿÿÿ
+r	java:S116="]Rename this field "ContractInfoString" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(…åÑ
