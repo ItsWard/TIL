@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.context.annotation.Import;
 import start.aop.order.domain.OrderRepository;
+import start.aop.order.domain.OrderRepositoryImpl;
 import start.aop.order.log.AspectPointcutAbstractMethod;
 import start.aop.order.service.OrderService;
 import org.springframework.aop.support.AopUtils;
@@ -21,7 +22,7 @@ public class AopTest {
     @Autowired
     OrderService orderService;
     @Autowired
-    OrderRepository orderRepository;
+    OrderRepositoryImpl orderRepository;
 
     @Test
     void aopInfo() {

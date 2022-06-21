@@ -5,7 +5,7 @@ import org.springframework.stereotype.Repository;
 
 @Slf4j
 @Repository
-public class OrderRepository {
+public class OrderRepository implements OrderRepositoryImpl{
 
     public String save(String itemId) {
         log.info("[orderRepository] 실행");
