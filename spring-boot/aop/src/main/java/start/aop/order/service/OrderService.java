@@ -1,16 +1,16 @@
-package start.aop.service;
+package start.aop.order.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import start.aop.domain.order.OrderRepository;
+import start.aop.order.domain.OrderRepository;
 
 @Slf4j
 @Service
 public class OrderService {
 
-    public final OrderRepository orderRepository;
+    private final OrderRepository orderRepository;
 
-    private OrderService(OrderRepository orderRepository){
+    public OrderService(OrderRepository orderRepository) {
         this.orderRepository = orderRepository;
     }
 
