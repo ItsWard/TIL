@@ -3,16 +3,20 @@ H
 src/lambda2/Lambda5.java,a\2\a2ff349fb5f4e7f4b3f89bc4b6758258a6cb2ad2
 G
 src/thread/Thread1.java,b\3\b3072b2ceb1bedad81bccf9ea83d9b41d6946eb8
+J
+src/string/StringTest.java,1\f\1f575dcc12f668847fb15970e61a1b5c48af0d3b
 N
 src/streampipeline/Member.java,0\d\0d10f51e89e05e40f04bce7c1e10aed5d2ac5f7e
 H
 src/lambda2/Student.java,4\e\4e0007f94fffb80317081f62a5d15ce6a88920da
-J
-src/string/StringTest.java,1\f\1f575dcc12f668847fb15970e61a1b5c48af0d3b
 E
 src/string/Count.java,5\1\510221560336201a50c3c0dbc80442e9aa0b0b27
 I
 src/string/BoradGame.java,e\f\efb8696ca5ca4a5de4fbcfe20ce12a1d5b2487b9
+B
+src/test/Test.java,9\7\97149f4a5db5d13120306f482f28d324a383427b
+C
+src/test/Test2.java,7\8\7885fdda7c8106c27072103559b877df7fe3357e
 O
 src/streampipeline/Stream1.java,f\c\fc18ac544c9368794b28ab85665c7ed9c3971dc9
 P
@@ -26,6 +30,4 @@ H
 Z
 *src/lambda2/LambdaCollectionFrameWork.java,5\3\53928661ecb0a2cb96e857e915103851cec97aa0
 C
-src/test/Test2.java,7\8\7885fdda7c8106c27072103559b877df7fe3357e
-B
-src/test/Test.java,9\7\97149f4a5db5d13120306f482f28d324a383427b
+src/test/Test3.java,b\4\b46c0b1574cd86aa5ee5e990558592339d5c6c58

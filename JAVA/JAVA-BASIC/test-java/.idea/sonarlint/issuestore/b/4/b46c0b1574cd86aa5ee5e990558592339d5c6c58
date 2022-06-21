@@ -1,0 +1,17 @@
+
+y
+java:S1488"^Immediately return this expression instead of assigning it to the temporary variable "result".(ÙŒ»¦ÿÿÿÿÿ
+>
+java:S1481"(Remove this unused "num" local variable.(šº·Î
+H
+java:S1135"2Complete the task associated to this TODO comment.(ÓñàÍ
+B
+java:S1481"'Remove this unused "df" local variable.(•Çıÿÿÿÿ
+D
+java:S1905")Remove this unnecessary cast to "double".(ÙŒ»¦ÿÿÿÿÿ
+^
+java:S5361)"HReplace this call to "replaceAll()" by a call to the "replace()" method.( ªˆ
+J
+java:S11723"-Remove this unused method parameter "secret".(íù½8¨ÅğŸ˜0
+H
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ
