@@ -51,4 +51,29 @@ public class Test3 {
     public static String decryptCaesarCipher(String str, int secret) {
         return str;
     }
+
+    public String compressString(String str) {
+        // TODO:
+        int cnt = 0;
+        String result = "";
+        char buffer = 0;
+
+        for(char word : str.toCharArray()){
+
+            if(buffer == word){
+                cnt++;
+            }
+            else{
+                result += Integer.toString(++cnt);
+                result += buffer;
+
+                buffer = word;
+                cnt = 0;
+            }
+
+        }
+
+        return result;
+
+    }
 }
