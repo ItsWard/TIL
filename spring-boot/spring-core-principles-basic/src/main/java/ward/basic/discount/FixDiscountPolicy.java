@@ -1,7 +1,12 @@
 package ward.basic.discount;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
 import ward.basic.member.Grade;
 import ward.basic.member.Member;
+@Component
+//@Qualifier("fixDiscountPolicy")
 
 public class FixDiscountPolicy implements DiscountPolicy{
 

@@ -1,8 +1,10 @@
 package ward.basic.member;
 
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+@RequiredArgsConstructor
 @Component
 public class MemberServiceImpl implements MemberService{
 
@@ -10,10 +12,7 @@ public class MemberServiceImpl implements MemberService{
     //MemberSerVice만 의존함
 
     private final MemberRepository memberRepository;
-    @Autowired // ac.getBean(MemoryRepository.class)
-    public MemberServiceImpl(MemberRepository memberRepository) {
-        this.memberRepository = memberRepository;
-    }
+
 
     @Override
     public void join(Member member) {
