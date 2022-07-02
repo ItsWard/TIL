@@ -16,6 +16,8 @@ I
 B
 src/test/Test.java,9\7\97149f4a5db5d13120306f482f28d324a383427b
 C
+src/test/Test3.java,b\4\b46c0b1574cd86aa5ee5e990558592339d5c6c58
+C
 src/test/Test2.java,7\8\7885fdda7c8106c27072103559b877df7fe3357e
 O
 src/streampipeline/Stream1.java,f\c\fc18ac544c9368794b28ab85665c7ed9c3971dc9
@@ -30,4 +32,4 @@ H
 Z
 *src/lambda2/LambdaCollectionFrameWork.java,5\3\53928661ecb0a2cb96e857e915103851cec97aa0
 C
-src/test/Test3.java,b\4\b46c0b1574cd86aa5ee5e990558592339d5c6c58
+src/test/Test4.java,7\5\7511e1d8b5ab7322adfc47e325c01244279a01d1
