@@ -1,4 +1,4 @@
 
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(æÿì‡
-x
-java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(£Î„¥8øê¥ñŽ0
+q
+java:S4276"[Refactor this code to use the more specialised Functional Interface 'ToIntFunction<String>'(£Î„¥
