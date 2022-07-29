@@ -25,7 +25,10 @@ public class SecurityConfig {
                 .anyRequest().permitAll()
                 .and()
                 .formLogin()
-                .loginPage("/login");
+                .defaultSuccessUrl("/")
+                .and()
+                .oauth2Login() // 추가
+                .loginPage("/login"); // 추가
         return http.build();
     }
 

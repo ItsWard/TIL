@@ -40,7 +40,7 @@ public class IndexController {
         return "manager";
     }
 
-    @GetMapping("/login")
+    @GetMapping("/login_form")
     public String login() {
         return "loginForm";
     }
